@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Quicksand&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e3428bc011.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Regan Nitz</title>
+</head>
+
+<body>
+    <!--Color Scheme
+        Grass #7F867B
+        Matcha #C7C7BB
+        Linen #E3E3E0
+        Light Linen #EEEEEC-->
+
+    <nav class="navbar navbar-expand-lg navbar-light title">
+        <a class="navbar-brand" href="#">Regan Nitz</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#about">About Me <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--body-->
+
+    <!--About Me-->
+    <div id="about">
+        <div class="container about">
+            <div class='aboutMe'>
+                <img src="assets/me_filler_2.jpg" id="me" alt="me">
+                <div class="contact-btn">
+                    <a href="#contact"><button type="button" class="btn btn-outline-primary" aria-pressed="true">Contact
+                            Me</button></a>
+                </div>
+            </div>
+            <div class="about-contents">
+                <h1 class="title">About Me</h1>
+                <p>Hi! My name is Regan and I'm a web developer. I'm a lover of coffee, true crime documentaries, and
+                    coding. I found my passion for coding while I was in high school and I used the little skill I had
+                    then to help my friends design their blogs. Fast forward a few years to when I found the 1150
+                    Academy and joined their .Net Development class to hone my skill and hopefully turn my hobby into a
+                    career.
+                    <br>
+                    <br>
+                    I've been a creator all my life, from embroidery to pottery to painting and everything in between, I
+                    have always strived to create a beautiful product. I love coding because it allows me to keep
+                    creating beautiful but highly functional products with real-world use. My goal in my work is to use
+                    the design-centric part of my mind in conjunction with my skill for developing to output something
+                    easy to use but also aesthetically pleasing to its users. </p>
+                <img src="assets/signature.png" alt="signature" id="signature">
+            </div>
+        </div>
+    </div>
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="title">Projects</h1>
+            <div class="container left-img">
+                <img id="project-img" src="assets/GoldBadgeChallenge_screenshot.PNG">
+                <div class="project-summary">
+                    <h4 class="project-title">Console App Challenge</h4>
+                    <p>Absolutely no pressure. You are just a whisper floating across a
+                        mountain. Everything's not great in
+                        life, but we can still find beauty in it. A happy cloud. No pressure. Just relax and watch it
+                        happen.
+                    </p>
+                </div>
+            </div>
+
+            <div class="container right-img">
+                <img id="project-img" src="assets/CSSCreature_screenshot.PNG">
+                <div class=project-summary>
+                    <h4 class="project-title">CSS Creature</h4>
+                    <p class="project-summary">Absolutely no pressure. You are just a whisper floating across a
+                        mountain. Everything's not great in
+                        life, but we can still find beauty in it. A happy cloud. No pressure. Just relax and watch it
+                        happen.
+                    </p>
+                </div>
+            </div>
+
+            <div class="container left-img">
+                <img id="project-img" src="assets/StaticStore_screenshot.PNG">
+                <div class="project-summary">
+                    <h4 class="project-title">Static Store</h4>
+                    <p>Absolutely no pressure. You are just a whisper floating across a
+                        mountain. Everything's not great in
+                        life, but we can still find beauty in it. A happy cloud. No pressure. Just relax and watch it
+                        happen.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="contact">
+        <div class="container">
+            <h1 class="title">Get in Touch!</h1>
+            <p>Need a website or want to collaborate? Just let me know below, I would love to hear from you!
+            </p>
+
+            <div class="container form">
+                <form method="POST" action="https://formspree.io/regannitz@gmail.com">
+                    <div id="name-email">
+                        <input type="text" name="name" placeholder="*Name" required>
+
+                        <input type="email" name="email" placeholder="*Email" required>
+                    </div>
+
+                    <div id="message">
+                        <textarea name="message" placeholder="Message"></textarea>
+                    </div>
+
+                    <div id="send-btn">
+                        <button class="btn btn-outline-primary" type="submit">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container, footer">
+        <footer>
+            <div class="social-btns">
+                <a href="https://codepen.io/nitzregan"><i class="fab fa-codepen"></i></a>
+                <a href="https://github.com/nitzregan"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="far fa-file"></i></a>
+                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <br>
+            <p>2019 &copy; Regan Nitz</p>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
