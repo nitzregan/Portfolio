@@ -47,7 +47,7 @@ body{
     color: #E3E3E0;
 }
 
-.nav-link:hover{
+.navbar-light .navbar-nav .nav-link:hover{
     color: #C7C7BB;
 }
 
